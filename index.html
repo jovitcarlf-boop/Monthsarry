@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Monthsary, My Love 💕</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ========== LANDING SCREEN ========== -->
+  <div id="landing" class="landing">
+    <div class="petals-container" id="petals"></div>
+    <div class="landing-content">
+      <p class="landing-sub">for my one and only</p>
+      <h1 class="landing-title">A Little Something<br/><em>Just for You</em></h1>
+      <button class="open-btn" id="openBtn">
+        <span class="btn-text">Open Your Gift 🎁</span>
+        <span class="btn-ring"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <div id="mainContent" class="main hidden">
+
+    <!-- FLOATING PETALS -->
+    <div class="petals-container" id="mainPetals"></div>
+
+    <!-- MUSIC PLAYER -->
+    <div class="music-player" id="musicPlayer">
+      <audio id="bgMusic" loop>
+        <!-- 🎵 EDIT: Replace your-song.mp3 with your music file name -->
+        <source src="your-song.mp3" type="audio/mpeg"/>
+      </audio>
+      <button class="music-btn" id="musicBtn" title="Play/Pause Music">
+        <span id="musicIcon">▶</span>
+      </button>
+      <span class="music-label">Our Song</span>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-badge">
+        <!-- 🔢 EDIT: Change the number below -->
+        <span class="badge-num">25</span>
+        <span class="badge-text">Months</span>
+      </div>
+      <p class="hero-eyebrow">Happy Monthsarry</p>
+      <!-- ✍️ EDIT: Your partner's name below -->
+      <h1 class="hero-title">To My <em>Forever</em>, Kimberly</h1>
+      <p class="hero-date">
+        <!-- 📅 EDIT: Your anniversary date -->
+        Since September 27, 2024
+      </p>
+    </section>
+
+    <!-- MESSAGE SECTION -->
+    <section class="message-section">
+      <div class="message-card">
+        <div class="quote-mark">"</div>
+        <!-- 💌 EDIT: Your personal message below -->
+        <p class="message-text">
+          25 months ago, you walked into my life and everything changed —
+          in the most beautiful way. Every morning I wake up grateful that
+          I get to call you mine. You make ordinary days feel like magic,
+          and hard days feel survivable just by being there.
+        </p>
+        <p class="message-text">
+          I love the way you laugh, the way you care. Every moment with you is a memory I hold close.
+          Thank you for choosing me, every single day.
+        </p>
+                <p class="message-text">
+          I love you always lablab, love, baby, darling, bebe, bebs, asim ko!!!
+        </p>
+        <p class="message-signature">
+          Forever yours,<br/>
+          <!-- ✍️ EDIT: Your name below -->
+          <em>Carl 💕</em>
+        </p>
+        <div class="quote-mark close-quote">"</div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PHOTO GALLERY — 20 PICTURES
+         ==========================================
+         HOW TO EDIT CAPTIONS:
+         Change the text inside <div class="slide-caption">
+         
+         HOW TO EDIT PHOTOS:
+         Rename your photos to: photo1.jpg, photo2.jpg ... photo20.jpg
+         Then upload them to GitHub to replace the old ones.
+    =========================================== -->
+    <section class="gallery-section">
+      <h2 class="section-title">Our <em>Memories</em></h2>
+      <p class="section-sub">Little moments, forever treasured</p>
+
+      <div class="carousel-wrapper">
+        <div class="carousel" id="carousel">
+
+          <!-- SLIDE 1 — Edit caption below -->
+          <div class="carousel-slide active">
+            <img src="photo1.jpg" alt="Memory 1" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Our first date 🌸</div>
+          </div>
+
+          <!-- SLIDE 2 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo2.jpg" alt="Memory 2" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">That perfect day ✨</div>
+          </div>
+
+          <!-- SLIDE 3 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo3.jpg" alt="Memory 3" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Always laughing 😂</div>
+          </div>
+
+          <!-- SLIDE 4 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo4.jpg" alt="Memory 4" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Us, always 🫶</div>
+          </div>
+
+          <!-- SLIDE 5 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo5.jpg" alt="Memory 5" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">My favorite smile 😊</div>
+          </div>
+
+          <!-- SLIDE 6 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo6.jpg" alt="Memory 6" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">This moment 🥰</div>
+          </div>
+
+          <!-- SLIDE 7 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo7.jpg" alt="Memory 7" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Together 💖</div>
+          </div>
+
+          <!-- SLIDE 8 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo8.jpg" alt="Memory 8" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">My happiness 🌺</div>
+          </div>
+
+          <!-- SLIDE 9 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo9.jpg" alt="Memory 9" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Unforgettable 💗</div>
+          </div>
+
+          <!-- SLIDE 10 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo10.jpg" alt="Memory 10" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">My whole world 🫶</div>
+          </div>
+
+          <!-- SLIDE 11 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo11.jpg" alt="Memory 11" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Perfect day 💝</div>
+          </div>
+
+          <!-- SLIDE 12 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo12.jpg" alt="Memory 12" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Just us 🌹</div>
+          </div>
+
+          <!-- SLIDE 13 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo13.jpg" alt="Memory 13" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">I love this view 😍</div>
+          </div>
+
+          <!-- SLIDE 14 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo14.jpg" alt="Memory 14" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">My favorite person 💓</div>
+          </div>
+
+          <!-- SLIDE 15 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo15.jpg" alt="Memory 15" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Worth remembering 🥹</div>
+          </div>
+
+          <!-- SLIDE 16 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo16.jpg" alt="Memory 16" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Always and forever 💞</div>
+          </div>
+
+          <!-- SLIDE 17 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo17.jpg" alt="Memory 17" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Late night memories 🌙</div>
+          </div>
+
+          <!-- SLIDE 18 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo18.jpg" alt="Memory 18" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">My star ⭐</div>
+          </div>
+
+          <!-- SLIDE 19 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo19.jpg" alt="Memory 19" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">Shining bright 🌟</div>
+          </div>
+
+          <!-- SLIDE 20 — Edit caption below -->
+          <div class="carousel-slide">
+            <img src="photo20.jpg" alt="Memory 20" onerror="this.parentElement.classList.add('placeholder')"/>
+            <div class="slide-caption">And many more to come 💕</div>
+          </div>
+
+        </div>
+
+        <!-- Prev / Next Buttons -->
+        <button class="carousel-btn prev" id="prevBtn">&#8249;</button>
+        <button class="carousel-btn next" id="nextBtn">&#8250;</button>
+
+        <!-- Slide Counter e.g. "3 / 20" -->
+        <div class="slide-counter" id="slideCounter">1 / 20</div>
+
+        <!-- Dots -->
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <!-- REASONS SECTION -->
+    <section class="reasons-section">
+      <h2 class="section-title">Reasons I <em>Love You</em></h2>
+      <div class="reasons-grid">
+        <!-- 💝 EDIT: Change these reasons to your own -->
+        <div class="reason-card"><span class="reason-icon">😊</span><p>Your smile that lights up every room</p></div>
+        <div class="reason-card"><span class="reason-icon">🤝</span><p>How you always show up for me</p></div>
+        <div class="reason-card"><span class="reason-icon">🧠</span><p>Your brilliant, beautiful mind</p></div>
+        <div class="reason-card"><span class="reason-icon">💪</span><p>Your strength when things get hard</p></div>
+        <div class="reason-card"><span class="reason-icon">😂</span><p>Making me laugh every single day</p></div>
+        <div class="reason-card"><span class="reason-icon">🌙</span><p>Late-night talks that feel like home</p></div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing-section">
+      <div class="heart-big">💕</div>
+      <h2 class="closing-title">Here's to many<br/><em>more months together</em></h2>
+      <p class="closing-text">I love you more than words can say.</p>
+      <div class="closing-hearts">
+        <span>❤️</span><span>🧡</span><span>💛</span><span>💚</span><span>💙</span><span>💜</span><span>🩷</span>
+      </div>
+    </section>
+
+    <footer class="footer">Made with love, just for you 💌</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
